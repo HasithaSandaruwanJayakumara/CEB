@@ -4,10 +4,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class CustomerDTO {
+public class MeterReaderDTO {
     private int customerACN;
-    private String customerName;
+    private Date date;
+    private Double value;
 }
