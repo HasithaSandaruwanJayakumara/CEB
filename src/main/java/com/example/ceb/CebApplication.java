@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class CebApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CebApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(CebApplication.class, args);
+    }
 
 }
